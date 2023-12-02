@@ -62,7 +62,6 @@ img {
 
 input {
     color: #000000;
-    box-shadow: 0px 4px 4px #000000;
     margin: 15px;
     background: none;
     border: none;
@@ -87,14 +86,15 @@ label {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    background: linear-gradient(to line, blue, #f20303 80%);
 
 }
 
 button {
     border-radius: 10px;
     width: 75px;
-    color: #000000;
-    background: #00ffff83;
+    color: #f4f4f4;
+    background: linear-gradient(to right, blue, #f20303 80%);
     border: none;
     transition: transform 0.5s;
 }
